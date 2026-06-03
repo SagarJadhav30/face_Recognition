@@ -13,7 +13,7 @@ Attendance system using face recognition from a webcam. This repository captures
 1. Clone the repository:
 
 ```bash
-git clone (https://github.com/SagarJadhav30/face_Recognition.git)
+git clone https://github.com/SagarJadhav30/face_Recognition.git
 cd "face recogination"
 ```
 
