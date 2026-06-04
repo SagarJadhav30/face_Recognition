@@ -15,7 +15,7 @@ def load_face_encoding(image_path: Path, label: str):
     return encodings[0]
 
 
-video_capture = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(0) 
 if not video_capture.isOpened():
     raise RuntimeError("Could not open the webcam.")
 
