@@ -5,7 +5,7 @@ from pathlib import Path
 import cv2
 import face_recognition  # type: ignore[import-not-found]
 import numpy as np
- 
+  
 
 def load_face_encoding(image_path: Path, label: str): 
     image = face_recognition.load_image_file(str(image_path))
