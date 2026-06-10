@@ -68,7 +68,7 @@ with open(current_date + ".csv", "w", newline="") as f:
                 )
 
                 face_names = []
-
+ 
                 for face_encoding in face_encodings:
                     matches = face_recognition.compare_faces(
                         known_face_encodings,
