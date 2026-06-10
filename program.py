@@ -96,7 +96,7 @@ with open(current_date + ".csv", "w", newline="") as f:
                         lnwriter.writerow([name, current_time])
 
             cv2.imshow("Attendance System", frame)
-
+ 
             if cv2.waitKey(1) & 0xFF == ord("q"):
                 break
     finally:
