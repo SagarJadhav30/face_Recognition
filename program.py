@@ -20,7 +20,7 @@ if not video_capture.isOpened():
     raise RuntimeError("Could not open the webcam.")
 
 photo_dir = Path("photos")
-known_people = [
+known_people = [ 
     ("jobs", [photo_dir / "jobs.jpeg", photo_dir / "jobs.jpg"]),
     ("ratan tata", [photo_dir / "tata.jpg"]),
     ("sadmona", [photo_dir / "sadmona.jpg"]),
