@@ -51,7 +51,7 @@ with open(current_date + ".csv", "w", newline="") as f:
     lnwriter = csv.writer(f)
 
     try:
-        while True:
+        while True: 
             success, frame = video_capture.read()
             if not success or frame is None:
                 raise RuntimeError("Failed to read a frame from the webcam.")
