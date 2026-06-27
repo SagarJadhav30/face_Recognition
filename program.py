@@ -8,7 +8,7 @@ import numpy as np
   
 
 def load_face_encoding(image_path: Path, label: str): 
-    image = face_recognition.load_image_file(str(image_path))
+    image = face_recognition.load_image_file(str(image_path)) 
     encodings = face_recognition.face_encodings(image)
     if not encodings:
         raise ValueError(f"No face found in {image_path}")
